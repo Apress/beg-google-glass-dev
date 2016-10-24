@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/httpget"
+        android:title="@string/httpget" />
+    
+    <item
+        android:id="@+id/httppost"
+        android:title="@string/httppost" />
+    
+    <item
+        android:id="@+id/httpupload"
+        android:title="@string/httpupload" />
+    
+    <item
+        android:id="@+id/socketclient"
+        android:title="@string/socketclient" />   
+    
+    <item
+        android:id="@+id/socketserver"
+        android:title="@string/socketserver" />   
+    
+    <item
+        android:id="@+id/cbtclient"
+        android:title="@string/cbtclient" />
+    
+    <item
+        android:id="@+id/cbtserver"
+        android:title="@string/cbtserver" />  
+    
+    <item
+        android:id="@+id/bleclient"
+        android:title="@string/bleclient" />
+    
+    <item
+        android:id="@+id/blheartrate"
+        android:title="@string/blheartrate" />       
+
+    <item
+        android:id="@+id/socketheartrate"
+        android:title="@string/socketheartrate" />
+       
+    <item
+        android:id="@+id/stop"
+        android:title="@string/stop"
+        android:icon="@drawable/ic_stop" />
+        
+</menu>

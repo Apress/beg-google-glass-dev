@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/basicvideocapture"
+        android:title="@string/basicvideocapture"/>
+    <item
+        android:id="@+id/customvideocapture"
+        android:title="@string/customvideocapture"/>
+    <item
+        android:id="@+id/videoplayer"
+        android:title="@string/videoplayer"/>
+    <item
+        android:id="@+id/videoframes"
+        android:title="@string/videoframes"/>
+    <item
+        android:id="@+id/videoprocessing"
+        android:title="@string/videoprocessing"/>
+    <item
+        android:id="@+id/videosearch"
+        android:title="@string/videosearch"/>
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_stop"
+        android:title="@string/stop"/>
+
+</menu>

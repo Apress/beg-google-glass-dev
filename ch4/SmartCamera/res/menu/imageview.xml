@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/wechat"
+        android:title="@string/wechat"/>
+    <item
+        android:id="@+id/whatsapp"
+        android:title="@string/whatsapp"/>
+    <item
+        android:id="@+id/upload"
+        android:title="@string/upload"/>
+    <item
+        android:id="@+id/email"
+        android:title="@string/email"/>
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"/>
+
+</menu>

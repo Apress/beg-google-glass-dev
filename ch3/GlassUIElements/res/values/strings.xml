@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">UIElements</string>
+    <string name="say_glasswaretemplate">chapter three</string>
+    <string name="glass_voice_prompt">Say Glassware Template to trigger the glassware</string>
+    <string name="stop">STOP</string>
+    <string name="scards">SCROLLING CARDS</string>
+    <string name="tts">TTS</string>
+    <string name="asr">ASR</string>
+    <string name="headoff">HeadOff</string>
+    <string name="headon">HeadOn</string>
+    <string name="headoffDesc">Turn Off Head Gesture</string>
+    <string name="headonDesc">Turn On Head Gesture</string>
+    
+    <string name="footer">Beginning Google Glass Development: Chapter 3</string>
+    
+</resources>    
+    

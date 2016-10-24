@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/original"
+        android:title="@string/original"/>
+    <item
+        android:id="@+id/processed"
+        android:title="@string/processed"/>
+    <item
+        android:id="@+id/sepia"
+        android:title="@string/sepia"/>
+    <item
+        android:id="@+id/vintage"
+        android:title="@string/vintage"/>
+    <item
+        android:id="@+id/canny"
+        android:title="@string/canny"/>
+    <item
+        android:id="@+id/rotate"
+        android:title="@string/rotate"/>
+    <item
+        android:id="@+id/extractsound"
+        android:title="@string/extractsound"/>
+    <item
+        android:id="@+id/extractimages"
+        android:title="@string/extractimages"/>            
+</menu>

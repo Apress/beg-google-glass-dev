@@ -1,0 +1,5 @@
+syntax: glob
+bin/com/example/AndroidTuner/*.class
+obj/*
+bin/classes.dex
+bin/resources.ap_

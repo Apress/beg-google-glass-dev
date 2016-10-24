@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/disallowed"
+        android:title="@string/disallowed"/>
+    <item
+        android:id="@+id/dismissed"
+        android:title="@string/dismissed"/>
+    <item
+        android:id="@+id/error"
+        android:title="@string/error"/>
+    <item
+        android:id="@+id/selected"
+        android:title="@string/selected"/>
+    <item
+        android:id="@+id/success"
+        android:title="@string/success"/>
+    <item
+        android:id="@+id/tap"
+        android:title="@string/tap"/>
+
+</menu>

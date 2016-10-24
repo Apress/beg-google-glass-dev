@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/preview"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/preview"/>
+    <item
+        android:id="@+id/zoom"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/zoom"/>
+
+    <item
+        android:id="@+id/scanner"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/scanner"/>
+
+    <item
+        android:id="@+id/ocr"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/ocr"/>
+        
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/search"/>
+    
+    <item
+        android:id="@+id/photo"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/photo"/>
+    
+    <item
+        android:id="@+id/opencv"
+        android:icon="@drawable/ic_world_50"
+        android:title="@string/opencv"/>
+        
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_stop"
+        android:title="@string/stop"/>
+    
+</menu>

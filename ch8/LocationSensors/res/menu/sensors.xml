@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/logon"
+        android:title="@string/logon"/>
+    <item
+        android:id="@+id/accelerometer"
+        android:title="@string/accelerometer"/>
+    <item
+        android:id="@+id/gravity"
+        android:title="@string/gravity"/>
+    <item
+        android:id="@+id/gyroscope"
+        android:title="@string/gyroscope"/>
+    <item
+        android:id="@+id/light"
+        android:title="@string/light"/>
+    <item
+        android:id="@+id/linearacceleration"
+        android:title="@string/linearacceleration"/>
+    <item
+        android:id="@+id/magneticfield"
+        android:title="@string/magneticfield"/>
+    <item
+        android:id="@+id/orientation"
+        android:title="@string/orientation"/>
+    <item
+        android:id="@+id/rotationvector"
+        android:title="@string/rotationvector"/>
+
+</menu>

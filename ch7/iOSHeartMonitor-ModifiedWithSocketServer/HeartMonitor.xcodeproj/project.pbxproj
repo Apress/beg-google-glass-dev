@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94AE6581825D8D0007AF84D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94AE6571825D8D0007AF84D /* Media.xcassets */; };
+		E94AE65A1825E0A4007AF84D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AE6591825E0A4007AF84D /* QuartzCore.framework */; };
+		E94AE65C1825E0AB007AF84D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94AE65B1825E0AB007AF84D /* CoreBluetooth.framework */; };
+		E98E8E581815331A00614D8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E8E571815331A00614D8E /* Foundation.framework */; };
+		E98E8E5A1815331A00614D8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E8E591815331A00614D8E /* CoreGraphics.framework */; };
+		E98E8E5C1815331A00614D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E8E5B1815331A00614D8E /* UIKit.framework */; };
+		E98E8E621815331A00614D8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E98E8E601815331A00614D8E /* InfoPlist.strings */; };
+		E98E8E641815331A00614D8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E98E8E631815331A00614D8E /* main.m */; };
+		E98E8E681815331A00614D8E /* HRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98E8E671815331A00614D8E /* HRMAppDelegate.m */; };
+		E98E8E6B1815331A00614D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98E8E691815331A00614D8E /* Main.storyboard */; };
+		E98E8E6E1815331A00614D8E /* HRMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98E8E6D1815331A00614D8E /* HRMViewController.m */; };
+		E98E8E771815331A00614D8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E8E761815331A00614D8E /* XCTest.framework */; };
+		E98E8E781815331A00614D8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E8E571815331A00614D8E /* Foundation.framework */; };
+		E98E8E791815331A00614D8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E8E5B1815331A00614D8E /* UIKit.framework */; };
+		E98E8E811815331A00614D8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E98E8E7F1815331A00614D8E /* InfoPlist.strings */; };
+		E98E8E831815331A00614D8E /* HeartMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E98E8E821815331A00614D8E /* HeartMonitorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E98E8E7A1815331A00614D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98E8E4C1815331A00614D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98E8E531815331A00614D8E;
+			remoteInfo = HeartMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E94AE6571825D8D0007AF84D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E94AE6591825E0A4007AF84D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E94AE65B1825E0AB007AF84D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E98E8E541815331A00614D8E /* HeartMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98E8E571815331A00614D8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E98E8E591815331A00614D8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E98E8E5B1815331A00614D8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E98E8E5F1815331A00614D8E /* HeartMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartMonitor-Info.plist"; sourceTree = "<group>"; };
+		E98E8E611815331A00614D8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E98E8E631815331A00614D8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E98E8E651815331A00614D8E /* HeartMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		E98E8E661815331A00614D8E /* HRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMAppDelegate.h; sourceTree = "<group>"; };
+		E98E8E671815331A00614D8E /* HRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMAppDelegate.m; sourceTree = "<group>"; };
+		E98E8E6A1815331A00614D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E98E8E6C1815331A00614D8E /* HRMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMViewController.h; sourceTree = "<group>"; };
+		E98E8E6D1815331A00614D8E /* HRMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMViewController.m; sourceTree = "<group>"; };
+		E98E8E751815331A00614D8E /* HeartMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98E8E761815331A00614D8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E98E8E7E1815331A00614D8E /* HeartMonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartMonitorTests-Info.plist"; sourceTree = "<group>"; };
+		E98E8E801815331A00614D8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E98E8E821815331A00614D8E /* HeartMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartMonitorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E98E8E511815331A00614D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94AE65C1825E0AB007AF84D /* CoreBluetooth.framework in Frameworks */,
+				E94AE65A1825E0A4007AF84D /* QuartzCore.framework in Frameworks */,
+				E98E8E5A1815331A00614D8E /* CoreGraphics.framework in Frameworks */,
+				E98E8E5C1815331A00614D8E /* UIKit.framework in Frameworks */,
+				E98E8E581815331A00614D8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98E8E721815331A00614D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98E8E771815331A00614D8E /* XCTest.framework in Frameworks */,
+				E98E8E791815331A00614D8E /* UIKit.framework in Frameworks */,
+				E98E8E781815331A00614D8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E98E8E4B1815331A00614D8E = {
+			isa = PBXGroup;
+			children = (
+				E94AE6571825D8D0007AF84D /* Media.xcassets */,
+				E98E8E5D1815331A00614D8E /* HeartMonitor */,
+				E98E8E7C1815331A00614D8E /* HeartMonitorTests */,
+				E98E8E561815331A00614D8E /* Frameworks */,
+				E98E8E551815331A00614D8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E98E8E551815331A00614D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E98E8E541815331A00614D8E /* HeartMonitor.app */,
+				E98E8E751815331A00614D8E /* HeartMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98E8E561815331A00614D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94AE65B1825E0AB007AF84D /* CoreBluetooth.framework */,
+				E94AE6591825E0A4007AF84D /* QuartzCore.framework */,
+				E98E8E571815331A00614D8E /* Foundation.framework */,
+				E98E8E591815331A00614D8E /* CoreGraphics.framework */,
+				E98E8E5B1815331A00614D8E /* UIKit.framework */,
+				E98E8E761815331A00614D8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E98E8E5D1815331A00614D8E /* HeartMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				E98E8E661815331A00614D8E /* HRMAppDelegate.h */,
+				E98E8E671815331A00614D8E /* HRMAppDelegate.m */,
+				E98E8E691815331A00614D8E /* Main.storyboard */,
+				E98E8E6C1815331A00614D8E /* HRMViewController.h */,
+				E98E8E6D1815331A00614D8E /* HRMViewController.m */,
+				E98E8E5E1815331A00614D8E /* Supporting Files */,
+			);
+			path = HeartMonitor;
+			sourceTree = "<group>";
+		};
+		E98E8E5E1815331A00614D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E98E8E5F1815331A00614D8E /* HeartMonitor-Info.plist */,
+				E98E8E601815331A00614D8E /* InfoPlist.strings */,
+				E98E8E631815331A00614D8E /* main.m */,
+				E98E8E651815331A00614D8E /* HeartMonitor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E98E8E7C1815331A00614D8E /* HeartMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E98E8E821815331A00614D8E /* HeartMonitorTests.m */,
+				E98E8E7D1815331A00614D8E /* Supporting Files */,
+			);
+			path = HeartMonitorTests;
+			sourceTree = "<group>";
+		};
+		E98E8E7D1815331A00614D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E98E8E7E1815331A00614D8E /* HeartMonitorTests-Info.plist */,
+				E98E8E7F1815331A00614D8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E98E8E531815331A00614D8E /* HeartMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98E8E861815331A00614D8E /* Build configuration list for PBXNativeTarget "HeartMonitor" */;
+			buildPhases = (
+				E98E8E501815331A00614D8E /* Sources */,
+				E98E8E511815331A00614D8E /* Frameworks */,
+				E98E8E521815331A00614D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartMonitor;
+			productName = HeartMonitor;
+			productReference = E98E8E541815331A00614D8E /* HeartMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E98E8E741815331A00614D8E /* HeartMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98E8E891815331A00614D8E /* Build configuration list for PBXNativeTarget "HeartMonitorTests" */;
+			buildPhases = (
+				E98E8E711815331A00614D8E /* Sources */,
+				E98E8E721815331A00614D8E /* Frameworks */,
+				E98E8E731815331A00614D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98E8E7B1815331A00614D8E /* PBXTargetDependency */,
+			);
+			name = HeartMonitorTests;
+			productName = HeartMonitorTests;
+			productReference = E98E8E751815331A00614D8E /* HeartMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E98E8E4C1815331A00614D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HRM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+				TargetAttributes = {
+					E98E8E531815331A00614D8E = {
+						DevelopmentTeam = V568RNX5Q4;
+					};
+					E98E8E741815331A00614D8E = {
+						TestTargetID = E98E8E531815331A00614D8E;
+					};
+				};
+			};
+			buildConfigurationList = E98E8E4F1815331A00614D8E /* Build configuration list for PBXProject "HeartMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E98E8E4B1815331A00614D8E;
+			productRefGroup = E98E8E551815331A00614D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98E8E531815331A00614D8E /* HeartMonitor */,
+				E98E8E741815331A00614D8E /* HeartMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E98E8E521815331A00614D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98E8E621815331A00614D8E /* InfoPlist.strings in Resources */,
+				E94AE6581825D8D0007AF84D /* Media.xcassets in Resources */,
+				E98E8E6B1815331A00614D8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98E8E731815331A00614D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98E8E811815331A00614D8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E98E8E501815331A00614D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98E8E681815331A00614D8E /* HRMAppDelegate.m in Sources */,
+				E98E8E641815331A00614D8E /* main.m in Sources */,
+				E98E8E6E1815331A00614D8E /* HRMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98E8E711815331A00614D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98E8E831815331A00614D8E /* HeartMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E98E8E7B1815331A00614D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98E8E531815331A00614D8E /* HeartMonitor */;
+			targetProxy = E98E8E7A1815331A00614D8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E98E8E601815331A00614D8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98E8E611815331A00614D8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E98E8E691815331A00614D8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98E8E6A1815331A00614D8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E98E8E7F1815331A00614D8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98E8E801815331A00614D8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E98E8E841815331A00614D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E98E8E851815331A00614D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E98E8E871815331A00614D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				INFOPLIST_FILE = "HeartMonitor/HeartMonitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E98E8E881815331A00614D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				INFOPLIST_FILE = "HeartMonitor/HeartMonitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E98E8E8A1815331A00614D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeartMonitor.app/HeartMonitor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeartMonitorTests/HeartMonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E98E8E8B1815331A00614D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeartMonitor.app/HeartMonitor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				INFOPLIST_FILE = "HeartMonitorTests/HeartMonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E98E8E4F1815331A00614D8E /* Build configuration list for PBXProject "HeartMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98E8E841815331A00614D8E /* Debug */,
+				E98E8E851815331A00614D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98E8E861815331A00614D8E /* Build configuration list for PBXNativeTarget "HeartMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98E8E871815331A00614D8E /* Debug */,
+				E98E8E881815331A00614D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98E8E891815331A00614D8E /* Build configuration list for PBXNativeTarget "HeartMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98E8E8A1815331A00614D8E /* Debug */,
+				E98E8E8B1815331A00614D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E98E8E4C1815331A00614D8E /* Project object */;
+}

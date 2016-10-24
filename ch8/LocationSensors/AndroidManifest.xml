@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.morkout.locationsensors"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+	<uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+	<application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name="com.morkout.locationsensors.MenuActivity"
+            android:label="@string/app_name"
+            android:enabled="true" >
+        </activity>
+        
+        <activity
+            android:name="com.morkout.locationsensors.LocationActivity"
+            android:label="@string/app_name"
+            android:enabled="true" >
+        </activity>
+      
+        <activity
+            android:name="com.morkout.locationsensors.NearbyPlacesActivity"
+            android:label="@string/app_name"
+            android:enabled="true" >
+        </activity>        
+                
+        <activity
+            android:name="com.morkout.locationsensors.ScrollingCardsActivity"
+            android:label="@string/app_name"
+            android:enabled="true" >
+        </activity>  
+        
+        <activity
+            android:name="com.morkout.locationsensors.SensorActivity"
+            android:label="@string/app_name"
+            android:enabled="true" >
+        </activity>        
+        
+        <service
+            android:name="com.morkout.locationsensors.AppService"
+            android:icon="@drawable/ic_app"
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start" />
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stop"
+        android:title="@string/stop"
+        android:icon="@drawable/ic_stop" />
+        
+    <item
+        android:id="@+id/graphics_arcs"
+        android:title="@string/graphics_arcs" />
+        
+    <item
+        android:id="@+id/graphics_shape"
+        android:title="@string/graphics_shape" />
+        
+    <item
+        android:id="@+id/graphics_paint"
+        android:title="@string/graphics_paint" />
+        
+    <item
+        android:id="@+id/graphics_bitmap"
+        android:title="@string/graphics_bitmap" />
+        
+    <item
+        android:id="@+id/opengles_cube"
+        android:title="@string/opengles_cube" />
+    
+    <item
+        android:id="@+id/opengles_kube"
+        android:title="@string/opengles_kube" />
+    
+    <item
+        android:id="@+id/opengles_rotate"
+        android:title="@string/opengles_rotate" />
+    
+    <item
+        android:id="@+id/rotationvector"
+        android:title="@string/rotationvector" />
+        
+    <item
+        android:id="@+id/animation"
+        android:title="@string/animation" />
+        
+</menu>

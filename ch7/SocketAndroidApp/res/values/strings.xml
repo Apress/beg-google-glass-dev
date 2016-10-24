@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">SocketAndroidApp</string>
+
+    <string name="info">Android Socket Example</string>
+    <string name="socketclient">SOCKET CLIENT</string>
+    <string name="socketserver">SOCKET SERVER</string>
+    
+</resources>

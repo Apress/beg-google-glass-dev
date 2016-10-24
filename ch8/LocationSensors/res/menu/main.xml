@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--     <item
+        android:id="@+id/map"
+        android:title="@string/map" />
+ -->    
+    
+    <item
+        android:id="@+id/nearby"
+        android:title="@string/nearby" />
+    
+    <item
+        android:id="@+id/location"
+        android:title="@string/location" />
+    
+    <item
+        android:id="@+id/sensor"
+        android:title="@string/sensor" />
+    
+    <item
+        android:id="@+id/stop"
+        android:title="@string/stop"
+        android:icon="@drawable/ic_stop" />
+        
+    
+</menu>

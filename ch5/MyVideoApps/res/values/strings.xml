@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Video Apps</string>
+    <string name="say_videoapps">Chapter Five</string>
+    <string name="stop">STOP</string>
+    <string name="basicvideocapture">Basic Capture</string>
+    <string name="customvideocapture">Custom Capture</string>
+    <string name="videoplayer">Play</string>
+    <string name="videoframes">OpenCV Frame</string>
+    <string name="videoprocessing">FFmpeg Processing</string>
+    <string name="videosearch">YouTube Search</string>
+    <string name="original">Original Video</string>
+    <string name="processed">Processed Result</string>
+    <string name="sepia">Sepia Effect</string>
+    <string name="vintage">Vintage Effect</string>
+    <string name="canny">Canny Effect</string>
+    <string name="rotate">Rotate Video</string>
+    <string name="extractsound">Extract Sound</string>
+    <string name="extractimages">Extract Images</string>
+    <string name="stoprecording">Stop Recording</string>
+   
+	<string name="footer">Beginning Google Glass Development: Chapter 5</string>
+    
+</resources>

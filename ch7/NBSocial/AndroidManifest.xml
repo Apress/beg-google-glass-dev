@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.morkout.nbsocial"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.morkout.nbsocial.MenuActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.HTTPRequestActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.HeartrateSocketClientActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.HeartrateClassicBluetoothClient"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.SocketClientActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.SocketServerActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.ClassicBluetoothClient"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.nbsocial.ClassicBluetoothServer"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>                
+        <activity
+            android:name="com.morkout.nbsocial.BLEClientActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <service
+            android:name="com.morkout.nbsocial.AppService"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/ic_app"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start" />
+        </service>
+        <service android:name=".BluetoothLeService" android:enabled="true"/>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Location Sensors</string>
+    <string name="say_app_name">Location Sensors</string>
+    <string name="stop">STOP</string>
+    <string name="tts">TTS</string>
+    <string name="asr">ASR</string>
+    <string name="nearby">NEARBY PLACES</string>
+    <string name="location">LOCATION</string>
+    <string name="sensor">SENSORS</string>
+    <string name="map">MAP</string>
+    <string name="address">ADDRESS</string>
+    <string name="logon">TURN LOG OFF</string>
+    <string name="accelerometer">ACCELEROMETER</string>
+    <string name="gravity">GRAVITY</string>
+    <string name="gyroscope">GYROSCOPE</string>
+    <string name="light">LIGHT</string>
+    <string name="linearacceleration">LINEAR ACCELERATION</string>
+    <string name="magneticfield">MAGNETIC FIELD</string>
+    <string name="orientation">ORIENTATION</string>
+    <string name="rotationvector">ROTATION VECTOR</string>
+
+    <string name="footer">Beginning Google Glass Development: Chapter 8</string>
+    
+    
+</resources>

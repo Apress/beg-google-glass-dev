@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">NBSocial</string>
+    <string name="say_nbsocial">Network Social</string>
+    <string name="stop">STOP</string>
+    <string name="footer">Beginning Google Glass Development: Chapter 7</string>
+    
+    <string name="info">Hello</string>
+    <string name="httpget">HTTP GET</string>
+    <string name="httppost">HTTP POST</string>
+    <string name="httpupload">HTTP UPLOAD</string>
+    
+    <string name="socketclient">SOCKET CLIENT</string>
+    <string name="socketserver">SOCKET SERVER</string>
+
+    <string name="cbtclient">CBT CLIENT</string>
+    <string name="cbtserver">CBT SERVER</string>
+    
+    <string name="bleclient">BLE CLIENT</string>
+    
+    <string name="socketheartrate">SOCKET HEART RATE</string>
+    <string name="blheartrate">BL HEART RATE</string>
+    
+</resources>
+  

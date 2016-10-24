@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Smart Camera</string>
+    <string name="app_name_two">Smart Camera II</string>    
+    <string name="say_smartcamera">Smart Camera</string>
+    <string name="say_smartcamera_two">Smart Camera Two</string>
+    
+    <string name="glass_voice_prompt">Say Smart Camera to trigger the glassware</string>
+    <string name="stop">STOP</string>
+    <string name="preview">Preview</string>
+    <string name="zoom">Zoom</string>
+    <string name="scanner">Scanner</string>
+    <string name="ocr">OCR</string>
+    <string name="photo">Photo</string>
+    <string name="search">Search</string>
+    <string name="opencv">OpenCV</string>
+    <string name="wechat">Share to WeChat</string>
+    <string name="whatsapp">Share to WhatsApp</string>
+    <string name="upload">Upload to GDrive</string>
+    <string name="email">Email to Self</string>
+    <string name="delete">Delete from Glass</string>
+    
+    <string name="footer">Beginning Google Glass Development: Chapter 4</string>
+    
+</resources>    
+    

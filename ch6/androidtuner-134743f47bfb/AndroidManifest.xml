@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionName="2.0" android:versionCode="2" package="com.example.AndroidTuner">
+    <application android:label="Android Tuner" android:icon="@drawable/icon">
+        <activity android:name=".AndroidTunerActivity"
+                  android:label="Android Tuner"
+                  android:screenOrientation="nosensor"
+                  android:configChanges="keyboardHidden|orientation"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO">
+  </uses-permission>
+</manifest> 

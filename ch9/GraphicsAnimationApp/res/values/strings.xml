@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GraphicsAnimatiom</string>
+    <string name="say_glasswaretemplate">Graphics Animation</string>
+    <string name="hello">Hello</string>
+    <string name="rotationvector">Rotation Vector</string>
+    <string name="graphics_arcs">Graphics Arcs</string>
+    <string name="graphics_shape">Graphics Shapes</string>
+    <string name="graphics_paint">Graphics Paint</string>
+    <string name="graphics_bitmap">Graphics Bitmap</string>
+    <string name="opengles_cube">OpenGLES Cube</string>
+    <string name="opengles_kube">OpenGLES Kube</string>
+    <string name="opengles_rotate">OpenGLES Rotate</string>
+    <string name="animation">Animation</string>
+    <string name="stop">STOP</string>
+
+    <string name="footer">Beginning Google Glass Development: Chapter 9</string>
+    
+    
+</resources>

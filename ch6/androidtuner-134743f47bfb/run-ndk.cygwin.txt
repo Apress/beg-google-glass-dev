@@ -1,0 +1,5 @@
+To rebuild fft.cpp, install NDK and:
+
+cd /cygdrive/e/Stuff/dev/workspace/android-guitar-tuner
+
+/cygdrive/c/Progra~2/Android/android-ndk-r6/ndk-build

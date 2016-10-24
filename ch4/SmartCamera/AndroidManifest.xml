@@ -1,0 +1,115 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.morkout.smartcamera"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+	<uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.morkout.smartcamera.MenuActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.PreviewActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.ZoomActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start2" />
+             
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.ScannerActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.morkout.smartcamera.OCRActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.PhotoViewActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.SearchActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.OpenCVActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.morkout.smartcamera.ImageViewActivity"
+            android:enabled="true"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name="com.morkout.smartcamera.AppService"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/ic_app"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start" />
+        </service>
+      <!--   <service
+            android:name="com.morkout.smartcamera.AppServiceTwo"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/ic_app"
+            android:label="@string/app_name_two" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start2" />
+        </service>-->
+    </application>
+
+</manifest>
